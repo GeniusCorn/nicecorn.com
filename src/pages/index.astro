@@ -1,0 +1,31 @@
+---
+import Home from '../layouts/Home.astro'
+import Hero from '../components/Hero.astro'
+import Access from '../components/Access.astro'
+import Projects from '../components/Projects.astro'
+import Footer from '../components/Footer.astro'
+---
+
+<Home>
+  <main>
+    <Hero />
+
+    <br />
+
+    <Access />
+
+    <br />
+
+    <Projects />
+  </main>
+
+  <Footer />
+</Home>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 60ch;
+  }
+</style>
