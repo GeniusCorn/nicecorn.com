@@ -18,6 +18,8 @@
     "@iconify-json/ep": "^1.1.12",
     "@iconify-json/openmoji": "^1.1.40",
     "@iconify-json/tabler": "^1.1.98",
+    "@unocss/eslint-config": "^0.57.7",
+    "@unocss/reset": "^0.57.7",
     "eslint": "^8.54.0",
     "unocss": "^0.57.7"
   }

@@ -3,10 +3,19 @@ import Project from './Project.astro'
 ---
 
 <div class="flex items-center justify-between">
-  <h2 font-display text-3xl>Projects</h2>
+  <h2
+    font-display
+    text-3xl
+    >Projects</h2
+  >
 
-  <a href="https://github.com/GeniusCorn?tab=repositories" target="_blank">
-    <div class="i-tabler:arrow-up-right text-3xl hover:text-slate transition">
+  <a
+    href="https://github.com/GeniusCorn?tab=repositories"
+    target="_blank"
+  >
+    <div
+      class="i-tabler:arrow-up-right text-black text-3xl hover:text-slate transition"
+    >
     </div>
   </a>
 </div>
@@ -14,7 +23,10 @@ import Project from './Project.astro'
 <br />
 
 <Project url="https://vue3-starter.nicecorn.com/">
-  <div class="i-tabler-brand-vue" slot="icon"></div>
+  <div
+    class="i-tabler-brand-vue"
+    slot="icon"
+  ></div>
 
   <div slot="title">Vue 3 Starter</div>
 
@@ -25,23 +37,38 @@ import Project from './Project.astro'
 </Project>
 
 <Project url="https://chat.nicecorn.com/">
-  <div class="i-tabler-robot" slot="icon"></div>
+  <div
+    class="i-tabler-robot"
+    slot="icon"
+  ></div>
 
   <div slot="title">ChatGPT</div>
 
   <div slot="content">A simple ChatGPT Demo.</div>
 </Project>
 
-<Project url="http://datagram.nicecorn.com/" archived>
-  <div class="i-tabler-chart-pie" slot="icon"></div>
+<Project
+  url="http://datagram.nicecorn.com/"
+  archived
+>
+  <div
+    class="i-tabler-chart-pie"
+    slot="icon"
+  ></div>
 
   <div slot="title">DataGram</div>
 
   <div slot="content">A powerful data visualization and analysis tool.</div>
 </Project>
 
-<Project url="https://ele.nicecorn.com/" archived>
-  <div class="i-ep:eleme" slot="icon"></div>
+<Project
+  url="https://ele.nicecorn.com/"
+  archived
+>
+  <div
+    class="i-ep:eleme"
+    slot="icon"
+  ></div>
 
   <div slot="title">Ele</div>
 

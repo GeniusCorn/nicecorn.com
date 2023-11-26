@@ -8,8 +8,13 @@ import {
 } from 'unocss'
 
 export default defineConfig({
+  shortcuts: {
+    'btn': 'p-2 rounded text-black hover:text-white cursor-pointer transition'
+  },
   presets: [
-    presetUno(),
+    presetUno({
+      dark: 'class'
+    }),
     presetAttributify(),
     presetTagify(),
     presetIcons(),
