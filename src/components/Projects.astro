@@ -22,7 +22,10 @@ import Project from './Project.astro'
 
 <br />
 
-<Project url="https://vue3-starter.nicecorn.com/">
+<Project
+  github="https://github.com/GeniusCorn/vue3-starter"
+  url="https://vue3-starter.nicecorn.com/"
+>
   <div
     class="i-tabler-brand-vue"
     slot="icon"
@@ -36,20 +39,62 @@ import Project from './Project.astro'
   </div>
 </Project>
 
-<Project url="https://chat.nicecorn.com/">
+<Project
+  github="https://github.com/GeniusCorn/todo"
+  url="https://todo.nicecorn.com/"
+  archived
+>
   <div
-    class="i-tabler-robot"
+    class="i-tabler-menu-deep"
     slot="icon"
   ></div>
 
-  <div slot="title">ChatGPT</div>
+  <div slot="title">Todo</div>
 
-  <div slot="content">A simple ChatGPT Demo.</div>
+  <div slot="content">A solid implementation of the Todo Application.</div>
 </Project>
 
 <Project
+  archived
+  github="https://github.com/GeniusCorn/tic-tac-toe-game"
+  url="https://geniuscorn-tic-tac-toe.netlify.app/"
+>
+  <div
+    class="i-tabler-device-gamepad-3"
+    slot="icon"
+  ></div>
+
+  <div slot="title">Tic Tac Toe</div>
+
+  <div slot="content"
+    >In Tic Tac Toe, two players take turns and place their symbols (ie. a
+    circle and a cross) on a board, which consists of three rows with three
+    cells each. The first person to fill a row, or a column, or a diagonal
+    exclusively with their symbol - wins. If nobody manages to do that, the game
+    ends in a draw.</div
+  >
+</Project>
+
+<Project
+  github="https://github.com/GeniusCorn/vue-ele"
+  url="https://ele.nicecorn.com/"
+  archived
+>
+  <div
+    class="i-ep:eleme"
+    slot="icon"
+  ></div>
+
+  <div slot="title">Ele</div>
+
+  <div slot="content">Ele is a vue project that imitates ele App.</div>
+</Project>
+
+<Project
+  github="https://github.com/GeniusCorn/datagram"
   url="http://datagram.nicecorn.com/"
   archived
+  notWorking
 >
   <div
     class="i-tabler-chart-pie"
@@ -62,15 +107,17 @@ import Project from './Project.astro'
 </Project>
 
 <Project
-  url="https://ele.nicecorn.com/"
   archived
+  notWorking
+  github="https://github.com/GeniusCorn/chatgpt"
+  url="https://chat.nicecorn.com/"
 >
   <div
-    class="i-ep:eleme"
+    class="i-tabler-robot"
     slot="icon"
   ></div>
 
-  <div slot="title">Ele</div>
+  <div slot="title">ChatGPT</div>
 
-  <div slot="content">Ele is a vue project that imitates ele App.</div>
+  <div slot="content">A simple ChatGPT Demo.</div>
 </Project>
